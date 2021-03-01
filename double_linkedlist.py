@@ -9,7 +9,7 @@ class DoubleLinkedList:
     #for interviewer reference
     def __init__(self, head=None):
         self._head = head
-        self._length = 0
+        self._length = 0 #optional to implement
 
     #function to implement
     def insert(self, data):
@@ -31,5 +31,5 @@ class DoubleLinkedList:
                 new_node._prev = temp
                 new_node._next._prev = new_node
 
-        self._length += 1
+        self._length += 1 #optional to implement
         return 
